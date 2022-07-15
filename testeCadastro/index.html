@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Pessoa </title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+    <script src="js/scriptcadastro.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Pessoas </h1>
+    </header>
+
+    <main>
+
+            <div class="card">
+                <div class="lineinput">
+                    <label>Nome Completo </label>
+                    <input type="text" id="NomeCompleto"placeholder="Nome Completo">
+                </div>
+
+                <div class="card">
+                    <div class="lineinput">
+                        <label>CPF</label>
+                        <input type="number" id="CPF"placeholder="CPF">
+                    </div>
+
+                    <div class="card">
+                        <div class="lineinput">
+                            <label>Genero </label>
+                            <input type="text" id="Genero"placeholder="Gênero">
+                        </div>
+
+                        <div class="card">
+                            <div class="lineinput">
+                                <label>Telefone </label>
+                                <input type="number" id="Telefone"placeholder="Telefone">
+                            </div>
+
+                            <div class="card">
+                                <div class="lineinput">
+                                    <label>Endereço</label>
+                                    <input type="text" id="Endereco"placeholder="Endereço">
+                                </div>
+                            
+
+                                <div class="card">
+                                    <div class="lineinput">
+                                        <label>Observações</label>
+                                        <input type="text" id="Observacoes" placeholder="Observações">
+                                    </div>
+                                </div>
+
+            <button onclick= "pessoa.salvar()" id="btnAdd">Adicionar</button>
+            <button onclick ="pessoa.cancelar()" id="btnCa">Cancelar</button>
+        </div>
+
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th class="center">ID</th>
+                    <th class="center">Nome</th>
+                    <th class="center">CPF</th>
+                    <th class="center">Gênero</th>
+                    <th class="center">Telefone</th>
+                    <th class="center">Endereço</th>
+                    <th class="center">Observações</th>
+                    <th class="center">Ações</th>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+
+       
+
+    </main>
+
+    <h2 id="Titulo">
+       
+    </h2>
+
+</body>
+</html>

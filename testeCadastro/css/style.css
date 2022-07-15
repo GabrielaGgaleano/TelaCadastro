@@ -1,0 +1,81 @@
+header{
+    margin: 0%;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #fafbfc;
+}
+
+header{
+    background-color:rgb(253, 237, 163);
+    padding: 30px;
+    text-align:center;
+    color: rgb(19, 19, 16);
+}
+
+main{
+    padding: 30px 50px;
+}
+
+.card{
+    background-color: aliceblue;
+    text-align: left;
+   
+}
+
+.lineinput{
+display: grid;
+margin-bottom: 20px;
+
+}
+
+.input{
+padding: 10px;
+border: 1px solid#ccc;
+outline: 0;
+}
+
+button{
+border: 0px;
+padding: 10px;
+outline: 0;
+background-color: rgb(150, 165, 250);
+font-weight: bold;
+font-family: 'Oswald', sans-serif;
+border-radius: 3px;
+margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: rgb(72, 99, 109); 
+}
+.content{
+    margin-top: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table th{
+    background-color: rgb(253, 237, 163);
+    padding: 1px 5px;
+    text-align: center;
+
+}
+table td img{
+    width: 22px;
+}
+.center{
+    text-align: center;
+
+}
+
+#btnAdd{
+    font-size: 18px;
+}
+
+#btnCa{
+    font-size: 18px;
+}
